@@ -24,6 +24,7 @@ sudo ./vmware-install.pl 全程回车
 vmware-hgfsclient 
 Desktop
 work
+cd /mnt/hgfs/
 sudo mkdir Desktop
 sudo chmod -R 777 Desktop/
 vmhgfs-fuse  .host:/Desktop  /mnt/hgfs/Desktop/
